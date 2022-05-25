@@ -23,7 +23,7 @@ export default function Repositories() {
         <S.Container>
             <S.Title>Repositórios</S.Title>
             <S.List>
-                {repositories.map((repository, index) => <S.ListItem key={index}> {repository}</S.ListItem>)}
+                {repositories.map((repository, index) => <S.ListItem key={index}>Repositório: {repository}</S.ListItem>)}
                     {/* <S.ListItem>Repositório: {repository}</S.ListItem> */}
             </S.List>
             <S.LinkHome to="/">Voltar</S.LinkHome>
